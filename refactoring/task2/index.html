@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Рефакторинг. Задача 2</title>
+</head>
+
+<body>
+    <h1>Задача 2</h1>
+    <h2>Рефакторинг</h2>
+    <p>Посмотрите на код:</p>
+    <pre>
+        <code>
+            function drawRating(vote) {
+                if (vote >= 0 && vote <= 20) {
+                    return '★☆☆☆☆';
+                }
+                else if (vote > 20 && vote <= 40) {
+                    return '★★☆☆☆';
+                }
+                else if (vote > 40 && vote <= 60) {
+                    return '★★★☆☆';
+                }
+                else if (vote > 60 && vote <= 80) {
+                    return '★★★★☆';
+                }
+                else if (vote > 80 && vote <= 100) {
+                    return '★★★★★';
+                }
+            }
+        </code>
+    </pre>
+    <p>Что можно улучшить? Как бы вы его переписали?</p>
+    <script src="task2.js"></script>
+</body>
+
+</html>
