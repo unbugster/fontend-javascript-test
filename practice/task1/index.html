@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Задача 1</title>
+</head>
+
+<body>
+    <h1>Задача 1</h1>
+    <p>Практика</p>
+    <p>Реализуйте функцию parseUrl(string), которая будет парсить URL строку и возвращать объект с распарсенными
+        данными. Пример:</p>
+    <pre>
+        <code>
+            let a = parseUrl('http://tutu.ru:8080/do/any.php?a=1&b[]=a&b[]=b#foo')
+
+            // Вернет объект, в котором будут следующие свойства:
+            console.log( a.href == "http://tutu.ru:8080/do/any.php?a=1&b[]=a&b[]=b#foo" )
+            console.log( a.hash == "#foo" )
+            console.log( a.port == "8080" )
+            console.log( a.host == "tutu.ru:8080" )
+            console.log( a.protocol == "http:" )
+            console.log( a.hostname == "tutu.ru" )
+            console.log( a.pathname == "/do/any.php" )
+            console.log( a.origin == "http://tutu.ru:8080" )
+        </code>
+        </pre>
+    <p>Желательно задачу решить как можно меньшим числом строк кода и затратив на реализацию минимум времени.</p>
+    <script src="parseUrl.js"></script>
+</body>
+
+</html>
