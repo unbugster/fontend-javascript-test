@@ -1,0 +1,870 @@
+{
+    "userMap": {
+        "features": [
+            {
+                "title": "<p><b>ППТ Починок</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>6,739 тыс.м³/ч</u></span></p><br /><p>Свободный резерв <br />объема: <span><u>4,039 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3036,
+                "type": "placemark",
+                "coordinates": [
+                    33.3434442006236,
+                    63.324436394772
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    33.3434442006236,
+                    63.324436394772
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Абаканово</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>32,640 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>99,423 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3034,
+                "type": "placemark",
+                "coordinates": [
+                    37.6600069306363,
+                    66.2662679664926
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    37.6600069306363,
+                    66.2662679664926
+                ]
+            },
+            {
+                "title": "<p><b>ППТ-3 Череповец</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>0 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>26,636 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3033,
+                "type": "placemark",
+                "coordinates": [
+                    33.033203236336,
+                    66.03669366693
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    33.033203236336,
+                    66.03669366693
+                ]
+            },
+            {
+                "title": "<p><b>ППТ-9, ППТ-2, ППТ-4 Череповец</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>9046,660 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>469,660 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3032,
+                "type": "placemark",
+                "coordinates": [
+                    37.3466664306972,
+                    66.9767360966642
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    37.3466664306972,
+                    66.9767360966642
+                ]
+            },
+            {
+                "title": "<p><b>ППТ-9, ППТ-2, ППТ-4 Череповец</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>9046,660 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>469,660 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3039,
+                "type": "placemark",
+                "coordinates": [
+                    37.6629066666206,
+                    66.9706626720666
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    37.6629066666206,
+                    66.9706626720666
+                ]
+            },
+            {
+                "title": "<p><b>ППТ-9, ППТ-2, ППТ-4 Череповец</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>9046,660 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>469,660 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3030,
+                "type": "placemark",
+                "coordinates": [
+                    37.3670330663604,
+                    66.9667364397372
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    37.3670330663604,
+                    66.9667364397372
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Чебсара</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>3,947 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>2,379 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3026,
+                "type": "placemark",
+                "coordinates": [
+                    33.7334666062963,
+                    66.9624037627373
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    33.7334666062963,
+                    66.9624037627373
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Нестерово</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>4,373 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>3,040 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3023,
+                "type": "placemark",
+                "coordinates": [
+                    33.6767694344672,
+                    66.9203394666006
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    33.6767694344672,
+                    66.9203394666006
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Шекснинская птицефабрика</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>92,766 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>36,326 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3027,
+                "type": "placemark",
+                "coordinates": [
+                    33.4443407326934,
+                    66.296399274304
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    33.4443407326934,
+                    66.296399274304
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Шексна</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>90,363 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>46,693 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3026,
+                "type": "placemark",
+                "coordinates": [
+                    33.4344023332667,
+                    66.9337363763243
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    33.4344023332667,
+                    66.9337363763243
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Чагода<b></b></b></p><br /><br /><br /><p>Свободный резерв мощности: <em>22,336 тыс.м³/ч</em></p><br /><p>Свободный резерв объема: <u>3,946 тыс.м³/ч</u></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3026,
+                "type": "placemark",
+                "coordinates": [
+                    36.2947639637326,
+                    66.9963663733732
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    36.2947639637326,
+                    66.9963663733732
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Погост</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>9,407 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>2,030 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3024,
+                "type": "placemark",
+                "coordinates": [
+                    42.4249947297933,
+                    66.3346629606709
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    42.4249947297933,
+                    66.3346629606709
+                ]
+            },
+            {
+                "title": "<p><b>ППТ КС-96 (Юбилейный)</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>0,636 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>4,646 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3023,
+                "type": "placemark",
+                "coordinates": [
+                    42.0269633066696,
+                    66.673662329032
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    42.0269633066696,
+                    66.673662329032
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Тотьма</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>2,793 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>46,046 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3022,
+                "type": "placemark",
+                "coordinates": [
+                    42.7666642664466,
+                    66.6346326992739
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    42.7666642664466,
+                    66.6346326992739
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Тарнога</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>97,646 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>90,034 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3029,
+                "type": "placemark",
+                "coordinates": [
+                    43.6667666663963,
+                    60.6997669433362
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    43.6667666663963,
+                    60.6997669433362
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Сокол</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>906,693 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>39,093 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3020,
+                "type": "placemark",
+                "coordinates": [
+                    40.0666396936639,
+                    66.4696469666373
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    40.0666396936639,
+                    66.4696469666373
+                ]
+            },
+            {
+                "title": "<p><b>ППТ КС-96 (Нюксеница)</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>0 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>6,023 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3096,
+                "type": "placemark",
+                "coordinates": [
+                    44.2669976607036,
+                    60.4433760002734
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    44.2669976607036,
+                    60.4433760002734
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Кадуй</b></p><br /><br /><br /><p>Свободный резерв мощности: <u>936,660 тыс.м³/ч</u></p><br /><p>Свободный резерв объема: <u>929,660 тыс.м³/ч</u></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3093,
+                "type": "placemark",
+                "coordinates": [
+                    37.9066677436466,
+                    66.2426636337926
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    37.9066677436466,
+                    66.2426636337926
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Андога</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>32,029 тыс.м³/ч</u></span><br /></p><p>Свободный резерв объема: <span><u>3,260 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3097,
+                "type": "placemark",
+                "coordinates": [
+                    37.9603402634633,
+                    66.3236477062309
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    37.9603402634633,
+                    66.3236477062309
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Врагово</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>92,676 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>4,376 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3096,
+                "type": "placemark",
+                "coordinates": [
+                    49.063696266362,
+                    66.233626996493
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    49.063696266362,
+                    66.233626996493
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Щекутьево</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>93,346 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>2,446 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3096,
+                "type": "placemark",
+                "coordinates": [
+                    40.6269990667742,
+                    63.6366067020376
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    40.6269990667742,
+                    63.6366067020376
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Криводино</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>9,306 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>6,630 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3094,
+                "type": "placemark",
+                "coordinates": [
+                    36.6620634366643,
+                    63.6749636307936
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    36.6620634366643,
+                    63.6749636307936
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Плоское</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>94,207 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>3,437 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3093,
+                "type": "placemark",
+                "coordinates": [
+                    40.3939462263604,
+                    63.632464099739
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    40.3939462263604,
+                    63.632464099739
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Вохтога</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>37,260 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>96,393 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3092,
+                "type": "placemark",
+                "coordinates": [
+                    49.0496676460946,
+                    63.7636296739244
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    49.0496676460946,
+                    63.7636296739244
+                ]
+            },
+            {
+                "title": "<p><b>ППТ КС-97 (Грязовец)</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>0 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>9,426 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3099,
+                "type": "placemark",
+                "coordinates": [
+                    40.26276670333,
+                    63.734609024746
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    40.26276670333,
+                    63.734609024746
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Дубровское</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>6,339 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>4,307 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3090,
+                "type": "placemark",
+                "coordinates": [
+                    36.3067626663322,
+                    66.3643760063663
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    36.3067626663322,
+                    66.3643760063663
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Можайское</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>6,644 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>0,344 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3006,
+                "type": "placemark",
+                "coordinates": [
+                    36.7663664240626,
+                    66.9362932902449
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    36.7663664240626,
+                    66.9362932902449
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Погорелово</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>90,336 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>2,602 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3003,
+                "type": "placemark",
+                "coordinates": [
+                    36.6343600336936,
+                    66.9429604296006
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    36.6343600336936,
+                    66.9429604296006
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Стризнево</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>30,633 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>7,270 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3007,
+                "type": "placemark",
+                "coordinates": [
+                    36.966329033603,
+                    66.9336264970472
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    36.966329033603,
+                    66.9336264970472
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Дьяково</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>0 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>9,263 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3006,
+                "type": "placemark",
+                "coordinates": [
+                    40.0294673274233,
+                    66.9229607469923
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    40.0294673274233,
+                    66.9229607469923
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Вологда</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>960,292 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>962,064 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3006,
+                "type": "placemark",
+                "coordinates": [
+                    36.3366020973302,
+                    66.9766334660269
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    36.3366020973302,
+                    66.9766334660269
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Верховажье</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>6,636 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>6,606 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3004,
+                "type": "placemark",
+                "coordinates": [
+                    49.6606067694609,
+                    60.7962207373696
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    49.6606067694609,
+                    60.7962207373696
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Красавино</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>2,330 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>26,264 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3003,
+                "type": "placemark",
+                "coordinates": [
+                    46.4464363930239,
+                    60.6307922360237
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    46.4464363930239,
+                    60.6307922360237
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Великий Устюг</b></p><br /><br /><br /><p>Свободный резерв мощности: <span><u>0 тыс.м³/ч</u></span></p><br /><p>Свободный резерв объема: <span><u>99,734 тыс.м³/ч</u></span></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3002,
+                "type": "placemark",
+                "coordinates": [
+                    46.2766964367439,
+                    60.7367303769334
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    46.2766964367439,
+                    60.7367303769334
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Бабаево</b></p><br /><br /><br /><p>Свободный резерв мощности: <u>0 тыс.м³/ч</u></p><br /><p>Свободный резерв объема: <u>3,739 тыс.м³/ч</u></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3009,
+                "type": "placemark",
+                "coordinates": [
+                    36.6633369496366,
+                    66.3703630763429
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    36.6633369496366,
+                    66.3703630763429
+                ]
+            },
+            {
+                "title": "<p><b>ППТ Володино</b></p><br /><br /><br /><p>Свободный резерв мощности: <u>0 тыс.м³/ч</u></p><br /><p>Свободный резерв объема: <u>0 тыс.м³/ч</u></p>",
+                "subtitle": "",
+                "isTextInTitle": true,
+                "zIndex": 3000,
+                "type": "placemark",
+                "coordinates": [
+                    36.349793323292,
+                    66.4096666724362
+                ],
+                "stroke": {
+                    "color": "#977bc6"
+                },
+                "isComma": true,
+                "content": {
+                    "type": "text",
+                    "text": ""
+                },
+                "caption": "",
+                "balloonCoordinates": [
+                    36.349793323292,
+                    66.4096666724362
+                ]
+            }
+        ]
+    }
+}
