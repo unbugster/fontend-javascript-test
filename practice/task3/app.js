@@ -1,93 +1,90 @@
-
 import { initTable } from "./components/table.js";
+import { getData } from "./components/api.js";
 
-const SMALL_DATA_URL = 'http://www.filltext.com/?rows=32&id={number|1000}&firstName={firstName}&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}&adress={addressObject}&description={lorem|32}';
-const BIG_DATA_URL = 'http://www.filltext.com/?rows=1000&id={number|1000}&firstName={firstName}&delay=3&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}&adress={addressObject}&description={lorem|32};'
+const SMALL_DATA_BTN = document.querySelector("#small-data");
+const BIG_DATA_BTN = document.querySelector("#big-data");
+const FIND_BTN = document.querySelector('#find');
+const SEARCH_INPUT = document.querySelector('#input');
+const INPUT_BAR = document.querySelector('#inputBar');
+const ROOT = document.querySelector('#root');
+const PRELOADER = document.querySelector('.loader');
 
-const imputBar = document.querySelector('#inputBar');
-imputBar.classList.add('visually-hidden');
+document.addEventListener('DOMContentLoaded', () => {
 
-const start = async (url) => {
+    const addTable = (data) => {
 
-    const loader = document.querySelector('#loader');
-    loader.classList.remove('visually-hidden');
+        PRELOADER.hidden = true;
+        INPUT_BAR.hidden = false;
+        INPUT_BAR.classList.remove('visually-hidden');
 
-    const response = await fetch(url);
-    const tableData = await response.json();
-    loader.classList.add('visually-hidden');
-    imputBar.classList.remove('visually-hidden');
-    const { fillTable } = initTable(tableData);
+        const { fillTable } = initTable(data);
+        fillTable();
 
-    fillTable();
-
-    let table = new DataTable('#table', {
-        dom: 'lrtip',
-        language: {
-            search: "Поиск:",
-            info: "Выбрана страница _PAGE_ из _PAGES_",
-            lengthMenu: 'Показать <select>' +
-                '<option value="10">10</option>' +
-                '<option value="20">20</option>' +
-                '<option value="50">50</option>' +
-                '<option value="-1">Все</option>' +
-                '</select>',
-            paginate: {
-                "first": "Первая",
-                "last": "Последняя",
-                "next": "Следующая",
-                "previous": "Предыдущая",
+        let table = new DataTable('#table', {
+            dom: 'lrtip',
+            language: {
+                search: "Поиск:",
+                info: "Выбрана страница _PAGE_ из _PAGES_",
+                lengthMenu: 'Показать <select>' +
+                    '<option value="10">10</option>' +
+                    '<option value="20">20</option>' +
+                    '<option value="50">50</option>' +
+                    '</select>',
+                paginate: {
+                    "first": "Первая",
+                    "last": "Последняя",
+                    "next": "Следующая",
+                    "previous": "Предыдущая",
+                },
+                infoEmpty: "Совпадения не найдены",
+                infoFiltered: "(отфильтровано из _MAX_ записей)",
+                loadingRecords: "Загрузка...",
+                zeroRecords: "Записи отсутствуют.",
+                emptyTable: "В таблице отсутствуют данные",
             },
-            infoEmpty: "Совпадения не найдены",
-            infoFiltered: "(отфильтровано из _MAX_ записей)",
-            loadingRecords: "Загрузка...",
-            infoPostFix: "",
-            zeroRecords: "Записи отсутствуют.",
-            emptyTable: "В таблице отсутствуют данные",
-        },
+        });
 
-        "rowCallback": function (row) {
-            row.addEventListener('mouseenter', () => {
-                row.classList.add('tr-hover');
-            });
-            row.addEventListener('mouseleave', () => {
-                row.classList.remove('tr-hover');
-            });
-        }
+        const searchData = () => {
+            table.search(SEARCH_INPUT.value).draw();
+        };
+
+        SEARCH_INPUT.addEventListener('input', () => {
+            if (!SEARCH_INPUT.value) {
+                table.search('').draw();
+            }
+        });
+
+        SEARCH_INPUT.addEventListener('keydown', (evt) => {
+            if (evt.keyCode == 13 || evt.keyCode === 'Enter') {
+                evt.preventDefault();
+                searchData();
+            }
+        });
+
+        FIND_BTN.addEventListener('click', searchData);
+    }
+
+    const displayPreparation = () => {
+        ROOT.innerHTML = '';
+        INPUT_BAR.hidden = true;
+        PRELOADER.classList.remove('visually-hidden');
+        PRELOADER.hidden = false;
+    }
+
+    SMALL_DATA_BTN.addEventListener('click', async () => {
+        BIG_DATA_BTN.disabled = true;
+        displayPreparation();
+        const tableData = await getData('SMALL_DATA_URL');
+        BIG_DATA_BTN.disabled = false;
+        addTable(tableData);
     });
 
-    const myInput = document.querySelector('#input');
-    const findBtn = document.querySelector('#find');
-
-    const search = () => {
-        table.search(myInput.value).draw();
-    };
-
-    myInput.addEventListener('input', (e) => {
-        if (!myInput.value) {
-            table.search('').draw();
-        }
+    BIG_DATA_BTN.addEventListener('click', async () => {
+        SMALL_DATA_BTN.disabled = true;
+        displayPreparation();
+        const tableData = await getData('BIG_DATA_URL');
+        SMALL_DATA_BTN.disabled = false;
+        addTable(tableData);
     });
 
-    myInput.addEventListener('keydown', (e) => {
-        if (e.keyCode == 13 || e.keyCode === 'Enter') {
-            e.preventDefault();
-            search();
-        }
-    });
-
-    findBtn.addEventListener('click', search);
-}
-
-document.addEventListener('DOMContentLoaded', async () => {
-    const smallDataBtn = document.querySelector("#small-data");
-    const bigDataBtn = document.querySelector("#big-data");
-    loader.classList.add('visually-hidden');
-
-    smallDataBtn.addEventListener('click', () => {
-        start(SMALL_DATA_URL);
-    });
-
-    bigDataBtn.addEventListener('click', () => {
-        start(BIG_DATA_URL);
-    });
 });

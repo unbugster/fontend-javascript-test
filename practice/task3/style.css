@@ -3,7 +3,6 @@ body {
     font-size: 16px;
     height: 100%;
     width: 100%;
-    overflow: hidden;
     box-sizing: border-box;
     margin: 0;
 }
@@ -16,8 +15,6 @@ body {
     font-weight: 400;
     color: var(--color-main);
     background-color: var(--background-color-main);
-    overflow-y: scroll;
-    width: calc(100% + 20px);
     padding: 8px;
 }
 
@@ -58,16 +55,20 @@ tbody td:not(:last-child) {
     border-right: 1px solid black;
 }
 
-.control-btns {
+.control {
     padding-top: 30px;
     margin-bottom: 20px;
 }
 
-.card-body {
-    margin-bottom: 20px;
+.spreadsheet__preloader {
+    display: flex;
+    align-items: center;
 }
 
-.tr-hover {
-    background-color: rgb(128, 124, 124);
-    color: red;
+.card-body {
+    padding-bottom: 30px;
+}
+
+.card {
+    margin-top: 20px;
 }
