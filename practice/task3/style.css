@@ -1,0 +1,73 @@
+html,
+body {
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Open sans', sans-serif;
+    line-height: 145%;
+    font-weight: 400;
+    color: var(--color-main);
+    background-color: var(--background-color-main);
+    overflow-y: scroll;
+    width: calc(100% + 20px);
+    padding: 8px;
+}
+
+.page a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    min-width: initial;
+    height: 1px;
+    min-height: initial;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.table__header {
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+}
+
+.table__header th:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+tbody td:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+.control-btns {
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    margin-bottom: 20px;
+}
+
+.tr-hover {
+    background-color: rgb(128, 124, 124);
+    color: red;
+}
