@@ -5,19 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Задача 3</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
-
 </head>
+
 <header>
     <div class="container">
-        <div class="control-btns">
-            Загрузить данные:
-            <button type="button" id="small-data" class="btn btn-outline-primary">Малый список</button>
-            <button type="button" id="big-data" class="btn btn-outline-primary">Большой список</button>
+        <div class="control">
+            <span>Загрузить данные:</span>
+            <button type="button" id="small-data" class="control__btn btn btn-outline-primary">Малый список</button>
+            <button type="button" id="big-data" class="control__btn btn btn-outline-primary">Большой список</button>
         </div>
     </div>
 </header>
@@ -25,29 +24,26 @@
 <body>
     <h1 class="visually-hidden">Задача 3. Таблица.</h1>
 
-    <section class="show-data">
+    <section class="spreadsheet">
         <div class="container">
-            <form>
-                <div class="input-group mb-3" id="inputBar">
-                    <input id="input" type="text" class="form-control" placeholder="Поиск по названию"
-                        aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="btn btn-primary" type="button" id="find">Поиск</button>
+            <form class="spreadsheet__form form">
+                <div class="visually-hidden input-group mb-3" id="inputBar">
+                    <input id="input" type="text" class="form__input form-control" placeholder="Поиск по таблице"
+                        aria-label="Поисковая строка">
+                    <button class="form__btn btn btn-primary" type="button" id="find">Поиск</button>
                 </div>
             </form>
 
-            <div id="loader"> Загрузка...
-                <div class="spinner-border text-primary" role="status">
-                    <span class="visually-hidden">Загрузка...</span>
-                </div>
+            <div class="spreadsheet__preloader loader visually-hidden" id="preloader">
+                <span>Загрузка...</span>
+                <div class="spinner-border text-primary" role="status"></div>
             </div>
 
-            <div id="root"></div>
-            <div class="info" id="info"></div>
+            <div class="spreadsheet__root" id="root"></div>
+            <div class="spreadsheet__info" id="info"></div>
         </div>
     </section>
 
-
-    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" charset="utf8"
         src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
