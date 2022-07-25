@@ -19,9 +19,14 @@ const parseData = () => {
 
         restElements.forEach((el) => {
             const key = el.firstChild.textContent.split(':')[0].trim();
-            const value = el.querySelector('span u').textContent.trim();
+            const valueEl = el.querySelector('u') || el.querySelector('em');
+            const valueText = valueEl.textContent.trim();
 
-            return properties[key] = value;
+            if (!key || !valueText) {
+                throw new Error('Некорректный формат html');
+            }
+
+            return properties[key] = valueText;
         });
 
         return {
@@ -40,4 +45,4 @@ const parseData = () => {
     }
 };
 
-console.log(JSON.stringify(parseData(), null, 2))
+console.log(JSON.stringify(parseData(), null, 2));
